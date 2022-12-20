@@ -1,0 +1,71 @@
+body {
+    background-color: #83786b;
+}
+
+a {
+
+    text-decoration: none;
+}
+
+p {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.product-list {
+     background-color: #dfe6e9;
+     padding: 3em;
+}
+
+.product-list .card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 1em;
+    box-shadow: 0px 10px 5px rgb(187, 187, 187);
+    text-align: center;
+    font-family: 'Trebuchet MS';
+    /* max-width: 25%; */
+    
+
+}
+
+.card .title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.card .text {
+    text-align: left;
+    margin: 2em;
+    margin-bottom: 0.5em;
+    font-size: 15px;
+}
+
+.buy-button {
+    background-color:rgb(101, 101, 255) ;
+    border: none;
+    padding: 1em;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 100%;
+    
+}
+
+.buy-button:hover {
+    box-shadow: 2px 5px 5px rgb(0, 0, 255);
+}
+
+.product-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+}
